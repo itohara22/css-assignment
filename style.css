@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.yellow {
+  background-color: yellow;
+  position: absolute;
+  inset: 0 0 30vh 0;
+  display: grid;
+  place-content: center;
+}
+
+.circle {
+  aspect-ratio: 1;
+  width: 200px;
+  background-color: red;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.triangle {
+  position: absolute;
+  aspect-ratio: 1;
+  width: 100px;
+  background-color: yellow;
+  inset: 62vh 42%;
+  z-index: 2;
+  transform-origin: 0%;
+  transform: rotate(339deg) skew(45deg);
+}
+.red {
+  position: absolute;
+  inset: 70vh 0 0 0;
+  background-color: red;
+}
