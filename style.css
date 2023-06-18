@@ -12,9 +12,10 @@
 
 .circle {
   aspect-ratio: 1;
-  width: 200px;
+  width: 100px;
   background-color: red;
   border-radius: 50%;
+  justify-self: center;
   display: grid;
   place-content: center;
 }
@@ -22,12 +23,12 @@
 .triangle {
   position: absolute;
   aspect-ratio: 1;
-  width: 100px;
+  width: 150px;
   background-color: yellow;
-  inset: 62vh 42%;
+  inset: 62vh 38%;
   z-index: 2;
   transform-origin: 0%;
-  transform: rotate(339deg) skew(45deg);
+  transform: rotate(337deg) skew(45deg);
 }
 .red {
   position: absolute;
