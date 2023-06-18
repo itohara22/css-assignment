@@ -18,6 +18,7 @@
   justify-self: center;
   display: grid;
   place-content: center;
+  margin-bottom: 15rem;
 }
 
 .triangle {
